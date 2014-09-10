@@ -1,0 +1,4 @@
+[
+    { "keys": ["alt+7"], "command": "switchview" },
+    { "keys": ["alt+8"], "command": "switchview", "args": {"direction": "right"} }
+]
