@@ -1,6 +1,6 @@
 import sublime_plugin                
 
-class SwithviewCommand(sublime_plugin.WindowCommand):
+class SwitchviewCommand(sublime_plugin.WindowCommand):
     
     def run(self, **args):
         direction = args.get('direction', 'left')
